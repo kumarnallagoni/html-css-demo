@@ -1,0 +1,110 @@
+.logo{
+    width: 300px;
+    display: inline;
+}
+.contact-info{
+    width: 600px;
+    float: right;
+    display: grid;
+}
+.top-menu{
+
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+}
+nav{
+
+    background: #6ad88b;
+    padding: 20px;
+}
+nav a{
+    padding: 10px;
+    background: #c678ed;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+nav a:hover{
+    background: tomato;
+}
+.social-media{
+    float: right;
+    width: 250px;
+    text-align: center;
+}
+.social-media a {
+    background: none;
+    color: purple;
+}
+.fa {
+    
+    font-size: 25px !important;
+    
+}
+.top-body{
+    display: flex;
+
+}
+.content{
+    margin-bottom: 100px;
+}
+.welcome-content{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+.welcome-content h3{
+    font-size: 38px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.welcome-content p{
+    font-size: 18px;
+}
+
+.part1, .part2{
+    width: 300px;
+    margin: auto;
+}
+.btn{
+    margin-top: 33px;
+    padding: 15px 80px;
+    border: 1px solid rebeccapurple;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bgimg-1{
+    background-image: url(https://www.w3schools.com/howto/img_parallax.jpg);
+    min-height: 80%;
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: #000;
+}
+.caption p{
+    width: 600px;
+    margin: auto;
+    color: #081aa3;
+}
+footer{
+    display: flex;
+    background: #222222;
+
+}
+footer div{
+    width: 200px;
+    margin: auto;
+    color: #ffffff;
+    padding: 30px;
+}
